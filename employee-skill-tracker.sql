@@ -47,6 +47,8 @@ Select * from projects as p JOin Employees as e ON p.emp_id=e.id
 
 Select e.name,d.dept_name from employees as e Left JOIN department as d ON d.dept_id=e.departments
 
+Select * from projects as p join employees as e on p.emp_id=e.id
+
 
 
 
